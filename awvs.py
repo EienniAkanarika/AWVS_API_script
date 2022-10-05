@@ -266,7 +266,6 @@ if __name__ == '__main__':
         use_xray_code = int(input("使用xray被动扫描--> 1\n"
                                   "仅使用awvs扫描--> 0\n"
                                   "选择为："))
-        print("如需配合使用xray扫描，请将将监听端口设置127.0.0.1:7777")
         start_scan(thread_num, profile_id, use_xray_code)
         sys.exit()
     if options == 2:
